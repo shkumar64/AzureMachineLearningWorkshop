@@ -64,8 +64,7 @@ A
 [taxonomy](https://docs.microsoft.com/en-us/azure/machine-learning/concept-workspace)
 of the workspace is illustrated in the following diagram:
 
-![Workspace
-taxonomy](~/Desktop/projects/final/media/image1.png){width="6.5in"
+![Workspace taxonomy](media/image1.png){width="6.5in"
 height="2.7270833333333333in"}
 
 1.  **Azure Machine Learning Workspace**
@@ -82,23 +81,22 @@ height="2.7270833333333333in"}
 
 ![Azure Machine Learning is entered into the search field. Machine
 learning is selected from the suggested results
-list.](~/Desktop/projects/final/media/image2.png){width="5.300926290463692in"
+list.](media/image2.png){width="5.300926290463692in"
 height="3.5481091426071742in"}
 
 -   In the **Machine Learning** pane, select **Create** to begin.
 
 ![The Create button is selected on the Machine Learning resource
-page.](~/Desktop/projects/final/media/image3.png){width="5.644186351706037in"
+page.](media/image3.png){width="5.644186351706037in"
 height="3.1296292650918636in"}
 
 -   Provide the following information to configure your new workspace.
 
-![](~/Desktop/projects/final/media/image4.png){width="6.5in"
-height="2.5506944444444444in"}
+![](media/image4.png){width="6.5in" height="2.5506944444444444in"}
 
 **Keep this information saved for future use.**
 
-![](~/Desktop/projects/final/media/image5.png){width="6.299611767279091in"
+![](media/image5.png){width="6.299611767279091in"
 height="2.8489588801399823in"}
 
 -   When you\'re finished configuring the workspace, select **Review +
@@ -132,13 +130,13 @@ on. We will start by creating a cluster of CPUs VMs.
 
 -   Select Compute in the Assets section of the left pane.
 
-![](~/Desktop/projects/final/media/image6.png){width="0.9982108486439195in"
+![](media/image6.png){width="0.9982108486439195in"
 height="3.2222222222222223in"}
 
 -   Navigate to Compute \> Compute Clusters in the Manage section and
     click New.
 
-![](~/Desktop/projects/final/media/image7.png){width="5.787037401574803in"
+![](media/image7.png){width="5.787037401574803in"
 height="3.9458202099737534in"}
 
 -   **Name** the cluster cpucluster.
@@ -157,14 +155,14 @@ height="3.9458202099737534in"}
     spin-up. Make sure that number is lower if you are using a more
     expensive VM size.
 
-![](~/Desktop/projects/final/media/image8.png){width="4.756514654418198in"
+![](media/image8.png){width="4.756514654418198in"
 height="7.236111111111111in"}
 
 -   Click Create.
 
 -   Wait for the provisioning state to be "Succeeded"
 
-![](~/Desktop/projects/final/media/image9.png){width="5.634899387576553in"
+![](media/image9.png){width="5.634899387576553in"
 height="2.4953696412948383in"}
 
 **Create Compute Instance**
@@ -178,21 +176,19 @@ of a Data Scientist.
 -   Navigate to Compute Instances tab in the Compute section and click
     on New.
 
-> ![](~/Desktop/projects/final/media/image10.png){width="5.037037401574803in"
-> height="3.4in"}
+> ![](media/image10.png){width="5.037037401574803in" height="3.4in"}
 
 -   Choose some sufficiently unique name, keep the default VM type
     (STANDARD_DS3_V2 - a fairly inexpensive machine type costing).
 
-> ![](~/Desktop/projects/final/media/image11.png){width="3.101851487314086in"
+> ![](media/image11.png){width="3.101851487314086in"
 > height="4.7709459755030625in"}
 
 -   Click Create.
 
 -   Wait for it to change the status to "Running".
 
-![](~/Desktop/projects/final/media/image12.png){width="6.5in"
-height="2.5027777777777778in"}
+![](media/image12.png){width="6.5in" height="2.5027777777777778in"}
 
 -   **Note that this machine will keep running until you stop it!**
 
@@ -238,8 +234,7 @@ studio:
 
 -   Select Datasets in the Assets section of the left pane.
 
-> ![](~/Desktop/projects/final/media/image13.png){width="2.625in"
-> height="4.156248906386701in"}
+> ![](media/image13.png){width="2.625in" height="4.156248906386701in"}
 
 -   Select Create Dataset to choose the source of your dataset. This
     source can be local files, a datastore, or public URLs. For our
@@ -247,13 +242,12 @@ studio:
     the dataset from
     [here](https://github.com/shkumar64/AzureMachineLearningWorkshop/blob/master/dataset/HR-Employee-Attrition.csv).
 
-> ![](~/Desktop/projects/final/media/image14.png){width="4.505208880139983in"
+> ![](media/image14.png){width="4.505208880139983in"
 > height="4.085492125984252in"}
 
 -   Select Tabular for Dataset type and give your dataset a name.
 
-> ![](~/Desktop/projects/final/media/image15.png){width="5.707317366579177in"
-> height="3.375in"}
+> ![](media/image15.png){width="5.707317366579177in" height="3.375in"}
 
 -   Select Next to open the Datastore and file selection form. On this
     form you select where to keep your dataset after creation, as well
@@ -261,7 +255,7 @@ studio:
     upload the file from your local desktop. Keep rest of the default
     values.
 
-> ![](~/Desktop/projects/final/media/image16.png){width="5.518518153980753in"
+> ![](media/image16.png){width="5.518518153980753in"
 > height="3.642457349081365in"}
 
 -   Select Next to populate the Settings and preview and Schema forms;
@@ -270,12 +264,12 @@ studio:
     Change the Column header to "All files have same header". Ensure the
     rest of the setting and preview of the data.
 
-> ![](~/Desktop/projects/final/media/image17.png){width="5.185533683289589in"
+> ![](media/image17.png){width="5.185533683289589in"
 > height="4.115740376202974in"}
 
 -   Select Next to review the Schema and Data type.
 
-> ![](~/Desktop/projects/final/media/image18.png){width="5.689815179352581in"
+> ![](media/image18.png){width="5.689815179352581in"
 > height="4.487415791776028in"}
 
 -   Select Next to review the Confirm details form. Check your
@@ -283,14 +277,14 @@ studio:
     about [data
     profiling](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-automated-ml-for-ml-models#profile).
 
-> ![](~/Desktop/projects/final/media/image19.png){width="5.758869203849518in"
+> ![](media/image19.png){width="5.758869203849518in"
 > height="4.324073709536308in"}
 
 -   Select Create to complete your dataset creation.
 
 -   Dataset should be registered and available for use.
 
-> ![](~/Desktop/projects/final/media/image20.png){width="5.6712959317585305in"
+> ![](media/image20.png){width="5.6712959317585305in"
 > height="2.2915430883639547in"}
 
 -   You can register a new dataset under the same name by creating a new
@@ -363,13 +357,13 @@ studio:
 |                      | > distribution.                              |
 +----------------------+----------------------------------------------+
 
-> ![](~/Desktop/projects/final/media/image21.png){width="4.376801181102362in"
+> ![](media/image21.png){width="4.376801181102362in"
 > height="4.055555555555555in"}
 
 -   Now, click on the newly created dataset and click Explore. Here you
     can see the fields of the Tabular dataset.
 
-> ![](~/Desktop/projects/final/media/image22.png){width="5.884027777777778in"
+> ![](media/image22.png){width="5.884027777777778in"
 > height="3.2010115923009623in"}
 >
 > To view the profile of the dataset we generated in the previous step,
@@ -379,13 +373,13 @@ studio:
 > profile option), you can click Generate profile and select a cluster
 > to generate profile information for the dataset.
 >
-> ![](~/Desktop/projects/final/media/image23.png){width="5.884259623797026in"
+> ![](media/image23.png){width="5.884259623797026in"
 > height="3.6066240157480314in"}
 
 -   In the Consume tab we can find a short code snippet for consuming
     the dataset from Notebooks.
 
-> ![](~/Desktop/projects/final/media/image24.png){width="5.1987412510936135in"
+> ![](media/image24.png){width="5.1987412510936135in"
 > height="3.8240737095363078in"}
 
 -   For more information on datasets, see the [how-to for more
@@ -420,13 +414,13 @@ a full overview of the user interface.
 -   Navigate to the left pane of your workspace. Select Automated
     ML under the Author section.
 
-![](~/Desktop/projects/final/media/image25.png){width="3.1614588801399823in"
+![](media/image25.png){width="3.1614588801399823in"
 height="4.23202646544182in"}
 
 -   Select New Automated ML run and select the employeeattrition dataset
     that you had created earlier.
 
-![](~/Desktop/projects/final/media/image26.png){width="5.662037401574803in"
+![](media/image26.png){width="5.662037401574803in"
 height="3.635561023622047in"}
 
 -   Select Next
@@ -435,7 +429,7 @@ height="3.635561023622047in"}
     is what we want to predict), and select the cluster cpucluster which
     you\'ve created earlier.
 
-![](~/Desktop/projects/final/media/image27.png){width="5.536458880139983in"
+![](media/image27.png){width="5.536458880139983in"
 height="3.5555194663167105in"}
 
 -   Select Next
@@ -444,7 +438,7 @@ height="3.5555194663167105in"}
 
 -   Select view additional configuration.
 
-![](~/Desktop/projects/final/media/image28.png){width="5.629629265091864in"
+![](media/image28.png){width="5.629629265091864in"
 height="2.3787587489063866in"}
 
 -   Set the Primary
@@ -454,7 +448,7 @@ height="2.3787587489063866in"}
     parameter defines how many nodes of your cluster will be used for
     training.
 
-![](~/Desktop/projects/final/media/image29.png){width="2.8881944444444443in"
+![](media/image29.png){width="2.8881944444444443in"
 height="2.7968744531933507in"}
 
 -   Click Save
@@ -469,27 +463,26 @@ height="2.7968744531933507in"}
     click Deploy best model to create a deployed endpoint from the
     model.
 
--   ![](~/Desktop/projects/final/media/image30.png){width="5.962962598425197in"
+-   ![](media/image30.png){width="5.962962598425197in"
     height="2.88209864391951in"}
 
 -   Once the model is deployed, you can consume that API in any client.
     For instance, you can call the API from Postman. Go to EndPoints in
     AML assets
 
--   ![](~/Desktop/projects/final/media/image31.png){width="4.074619422572178in"
+-   ![](media/image31.png){width="4.074619422572178in"
     height="3.8425929571303588in"}
 
 -   Go to consume tab and find the URL Endpoint and key(if
     authentication was enabled)
 
--   ![](~/Desktop/projects/final/media/image32.png){width="5.698663604549432in"
+-   ![](media/image32.png){width="5.698663604549432in"
     height="4.268518153980753in"}
 
 -   Open Postman and create a new HTTP Post for that Rest Endpoint and
     send following HTTP Body
 
-![](~/Desktop/projects/final/media/image33.png){width="6.5in"
-height="4.497222222222222in"}
+![](media/image33.png){width="6.5in" height="4.497222222222222in"}
 
 > {
 >
@@ -580,7 +573,7 @@ documentation [here](https://docs.microsoft.com/en-us/azure/machine-learning/se
     engineering before starting the run. You can checkout this
     Featurization option on the start run page.
 
-![](~/Desktop/projects/final/media/image34.png){width="5.427083333333333in"
+![](media/image34.png){width="5.427083333333333in"
 height="3.455126859142607in"}
 
 Try the [[sample
@@ -643,7 +636,7 @@ the canvas.
 
 ![Workflow diagram for training, batch inference, and real-time
 inference in the
-designer](~/Desktop/projects/final/media/image35.png){width="4.416666666666667in"
+designer](media/image35.png){width="4.416666666666667in"
 height="4.51292760279965in"}
 
 -   In the AML, navigate to the Designer tab under the Author section
@@ -651,18 +644,18 @@ height="4.51292760279965in"}
 
 -   Create a new experiment by click +
 
-![](~/Desktop/projects/final/media/image36.png){width="2.5907338145231846in"
+![](media/image36.png){width="2.5907338145231846in"
 height="3.388888888888889in"}
 
 -   Rename the pipeline to Employee Attrition
 
-![](~/Desktop/projects/final/media/image37.png){width="4.307926509186352in"
+![](media/image37.png){width="4.307926509186352in"
 height="1.726852580927384in"}
 
 -   Select the compute target to the one that you created earlier. Click
     Save.
 
-![](~/Desktop/projects/final/media/image38.png){width="3.9691174540682415in"
+![](media/image38.png){width="3.9691174540682415in"
 height="2.4166666666666665in"}
 
 -   Click "X" to close the property window
@@ -672,13 +665,13 @@ height="2.4166666666666665in"}
 
 -   Drag the employeeatrition dataset module into the pipeline canvas.
 
-![](~/Desktop/projects/final/media/image39.png){width="5.259259623797026in"
+![](media/image39.png){width="5.259259623797026in"
 height="2.313287401574803in"}
 
 -   Add "Select Columns in Dataset" module to remove "EmployeeCount,
     EmployeeNumber, Over18 and StandardHours" columns.
 
--   ![](~/Desktop/projects/final/media/image40.png){width="5.548300524934383in"
+-   ![](media/image40.png){width="5.548300524934383in"
     height="3.2685181539807524in"}
 
 -   Add a Split Data module to create the training and test sets. Set
@@ -687,7 +680,7 @@ height="2.313287401574803in"}
     port of the module and the rest to the right port. We use the left
     dataset for training and the right one for testing.
 
-![](~/Desktop/projects/final/media/image41.png){width="5.342592957130359in"
+![](media/image41.png){width="5.342592957130359in"
 height="2.831117672790901in"}
 
 -   Add a Two-Class Logistics Regression module to initialize a boosted
@@ -700,7 +693,7 @@ height="2.831117672790901in"}
     option. (**Column names: Attrition**) The Train Model will train the
     classifier.
 
-![](~/Desktop/projects/final/media/image42.png){width="5.490740376202974in"
+![](media/image42.png){width="5.490740376202974in"
 height="2.377561242344707in"}
 
 -   Add **Score Model** module and connect the **Train Model** module to
@@ -714,12 +707,12 @@ height="2.377561242344707in"}
     left input port. To see the evaluation results, select the output
     port of the Evaluate Model module and select Visualize.
 
-![](~/Desktop/projects/final/media/image43.png){width="4.486373578302712in"
+![](media/image43.png){width="4.486373578302712in"
 height="3.962963692038495in"}
 
 -   Click Submit at the top and give your experiment a name.
 
-![](~/Desktop/projects/final/media/image44.png){width="3.5566010498687666in"
+![](media/image44.png){width="3.5566010498687666in"
 height="4.009259623797026in"}
 
 -   Once you ran the experiment, you can inspect the outputs of the
@@ -727,10 +720,9 @@ height="4.009259623797026in"}
     last one by right-clicking it and selecting Visualize Scored
     dataset.
 
-> ![](~/Desktop/projects/final/media/image45.png){width="6.5in"
-> height="4.293055555555555in"}
+> ![](media/image45.png){width="6.5in" height="4.293055555555555in"}
 >
-> ![](~/Desktop/projects/final/media/image46.png){width="5.870370734908136in"
+> ![](media/image46.png){width="5.870370734908136in"
 > height="3.8351837270341207in"}
 >
 > **6. Notebook VM & Python SDK**
@@ -816,8 +808,7 @@ clone this git repository onto the workspace.
 -   To get started, first navigate to the JupyterLab instance running on
     the Notebook VM by clicking on the JupyterLab link shown below
 
-![](~/Desktop/projects/final/media/image47.png){width="6.5in"
-height="2.591666666666667in"}
+![](media/image47.png){width="6.5in" height="2.591666666666667in"}
 
 -   After going through authentication, you will see the JupyterLab
     frontend. As you authenticate, make sure to use the same user to log
@@ -825,8 +816,7 @@ height="2.591666666666667in"}
     will be denied. Next open an Terminal (either by File -\> New -\>
     Terminal, or by just clicking on Terminal in the Launcher Window).
 
-![](~/Desktop/projects/final/media/image48.png){width="6.5in"
-height="3.4090277777777778in"}
+![](media/image48.png){width="6.5in" height="3.4090277777777778in"}
 
 -   In the terminal window clone Navigate to your directory (Users/X.X/
     ) and then clone this repository by typing:
@@ -834,14 +824,13 @@ height="3.4090277777777778in"}
 > git clone
 > https://github.com/shkumar64/AzureMachineLearningWorkshop.git
 
-![](~/Desktop/projects/final/media/image49.png){width="6.5in"
-height="1.6493055555555556in"}
+![](media/image49.png){width="6.5in" height="1.6493055555555556in"}
 
 -   Go back to Azure ML homepage and click on Notebooks. You should see
     amlwksp directory created with additional subdirectory in there with
     the Azure ML notebooks
 
-![](~/Desktop/projects/final/media/image50.png){width="4.722680446194226in"
+![](media/image50.png){width="4.722680446194226in"
 height="5.194444444444445in"}
 
 **Following are the notebook that you can execute using SDK and research
@@ -907,7 +896,7 @@ seamless access to a R based notebook environment.
 -   To access the R Studio navigate to the compute instance created in
     the previous steps and click on R studio.
 
-![](~/Desktop/projects/final/media/image51.png){width="6.005208880139983in"
+![](media/image51.png){width="6.005208880139983in"
 height="2.63048665791776in"}
 
 -   The R studio interface will start in the separate window. The bottom
@@ -915,11 +904,10 @@ height="2.63048665791776in"}
     "amlworkspace". You should be able to see the directory that we
     cloned in the last exercise
 
-![](~/Desktop/projects/final/media/image52.png){width="5.666666666666667in"
+![](media/image52.png){width="5.666666666666667in"
 height="3.1426990376202975in"}
 
-![](~/Desktop/projects/final/media/image53.png){width="6.5in"
-height="3.4895833333333335in"}
+![](media/image53.png){width="6.5in" height="3.4895833333333335in"}
 
 -   Open the folder named "R". This contains R notebooks that we would
     use through this exercise.
@@ -927,7 +915,7 @@ height="3.4895833333333335in"}
 -   Use the "More" menu and select the current directory as working
     directory as in the screenshot below.
 
-![](~/Desktop/projects/final/media/image54.png){width="4.255208880139983in"
+![](media/image54.png){width="4.255208880139983in"
 height="2.43628937007874in"}
 
 -   Click on 0-setup.R file to open it in the file pane. You can start
@@ -935,7 +923,7 @@ height="2.43628937007874in"}
     the notebook before starting the run. This notebook would install
     all the dependencies needed to run model training and scoring.
 
-![](~/Desktop/projects/final/media/image55.png){width="5.953125546806649in"
+![](media/image55.png){width="5.953125546806649in"
 height="3.187084426946632in"}
 
 -   After the setup is done. Open 2-train-onamlcompute.R This notebook
@@ -945,15 +933,13 @@ height="3.187084426946632in"}
 -   Make sure you replace the name of the dataset in line 41 with the
     output of line 39 *print(attrition)*
 
-![](~/Desktop/projects/final/media/image56.png){width="6.217926509186352in"
-height="3.53125in"}
+![](media/image56.png){width="6.217926509186352in" height="3.53125in"}
 
 -   If you navigate to your AML workspace you should be able to see the
     ongoing execution of the R script. When the script finishes you
     should be able to print the metrics from the completed run.
 
-![](~/Desktop/projects/final/media/image57.png){width="6.5in"
-height="2.9756944444444446in"}
+![](media/image57.png){width="6.5in" height="2.9756944444444446in"}
 
 -   After successfully training the model. Now we need to register the
     model in the AML workspace and deploy it as a container. Open
@@ -964,8 +950,7 @@ height="2.9756944444444446in"}
     tests sample data from this endpoint which should be visible in the
     script output
 
-> ![](~/Desktop/projects/final/media/image58.png){width="6.5in"
-> height="2.0493055555555557in"}
+> ![](media/image58.png){width="6.5in" height="2.0493055555555557in"}
 
 -   With R you can also consume the model with a Shiny App. To use this
     model using shiny-app. Open the notebook 4-shiny-app.R. and click on
@@ -973,8 +958,7 @@ height="2.9756944444444446in"}
     app should open in a new window and you should be able to see the
     input and output of the model.
 
-> ![](~/Desktop/projects/final/media/image59.png){width="6.5in"
-> height="4.333333333333333in"}
+> ![](media/image59.png){width="6.5in" height="4.333333333333333in"}
 >
 > **Optional reading**
 
@@ -1002,8 +986,7 @@ the Azure DevOps Project for build and release/deployment pipelines
 along with Azure ML services for model retraining pipeline, model
 management and operationalization.
 
-![ML
-lifecycle](~/Desktop/projects/final/media/image60.png){width="6.5in"
+![ML lifecycle](media/image60.png){width="6.5in"
 height="1.8833333333333333in"}
 
 Azure Machine Learning provides the following MLOps capabilities:
@@ -1040,15 +1023,14 @@ This is where the Azure Machine Learning shines the most. It presents
 the most complete and intuitive model lifecycle management experience
 alongside integrating with Azure DevOps and GitHub.
 
-![A diagram showing the DevOps
-Process](~/Desktop/projects/final/media/image61.png){width="6.5in"
+![A diagram showing the DevOps Process](media/image61.png){width="6.5in"
 height="0.9847222222222223in"}
 
 Following is the diagrammatic representation below for MLOps with Azure
 Machine Learning.
 
 ![A diagram showing MLOps with Azure Machine
-Learning](~/Desktop/projects/final/media/image62.png){width="6.5in"
+Learning](media/image62.png){width="6.5in"
 height="1.9243055555555555in"}
 
 [[\
@@ -1076,7 +1058,7 @@ deployment using Azure DevOps.**
 
 -   Go to your Azure DevOps project and create a new project
 
-![](~/Desktop/projects/final/media/image63.png){width="5.041666666666667in"
+![](media/image63.png){width="5.041666666666667in"
 height="5.668642825896763in"}
 
 -   Click Create
@@ -1084,7 +1066,7 @@ height="5.668642825896763in"}
 -   Click the Repos area. Click on the Git repo dropdown at the top of
     the page and then on \"Import Repository\".
 
-> ![](~/Desktop/projects/final/media/image64.png){width="4.824073709536308in"
+> ![](media/image64.png){width="4.824073709536308in"
 > height="2.67076334208224in"}
 
 -   Under clone URL, you can
@@ -1102,15 +1084,15 @@ height="5.668642825896763in"}
     connections** under the **Pipelines** section. The Azure ML
     extension uses an **Azure Resource Manager** service connection.
 
-![](~/Desktop/projects/final/media/image65.png){width="5.342592957130359in"
+![](media/image65.png){width="5.342592957130359in"
 height="3.4287346894138233in"}
 
-![](~/Desktop/projects/final/media/image66.png){width="4.638888888888889in"
+![](media/image66.png){width="4.638888888888889in"
 height="4.300853018372703in"}
 
 -   Select Service principal (automatic)
 
-> ![](~/Desktop/projects/final/media/image67.png){width="4.736111111111111in"
+> ![](media/image67.png){width="4.736111111111111in"
 > height="3.8230621172353456in"}
 
 -   **Important:** Make sure you point it to workshop workspace and be
@@ -1120,7 +1102,7 @@ height="4.300853018372703in"}
     extension requires \'Owner\' or \'User Access Administrator\'
     permissions on the Workspace.
 
-![](~/Desktop/projects/final/media/image68.png){width="3.1373370516185477in"
+![](media/image68.png){width="3.1373370516185477in"
 height="5.930555555555555in"}
 
 The first phase of bringing your ML workflow to production is being able
@@ -1149,34 +1131,28 @@ The pipelines derive their configuration variables from:
 Goto Pipelines (Rocket symbol), select Create Pipeline and pick Azure
 Repos Git:
 
--   ![](~/Desktop/projects/final/media/image69.png){width="6.5in"
-    height="3.5416666666666665in"}
+-   ![](media/image69.png){width="6.5in" height="3.5416666666666665in"}
 
 > Select your repo:
 
--   ![](~/Desktop/projects/final/media/image70.png){width="6.5in"
-    height="3.573611111111111in"}
+-   ![](media/image70.png){width="6.5in" height="3.573611111111111in"}
 
 > Select Existing Azure Pipelines YAML file:
 
--   ![](~/Desktop/projects/final/media/image71.png){width="6.5in"
-    height="3.670138888888889in"}
+-   ![](media/image71.png){width="6.5in" height="3.670138888888889in"}
 
 > Select the pipeline /pipelines/deploy-infrastructure.yml from the
 > list. Instead of hitting Run, hit the down arrow and select Save:
 
--   ![](~/Desktop/projects/final/media/image72.png){width="6.5in"
-    height="3.529861111111111in"}
+-   ![](media/image72.png){width="6.5in" height="3.529861111111111in"}
 
 > Then select the three dots and select Rename:
 
-![](~/Desktop/projects/final/media/image73.png){width="6.5in"
-height="3.5680555555555555in"}
+![](media/image73.png){width="6.5in" height="3.5680555555555555in"}
 
 -   Rename the pipeline to deploy-infrastructure and hit Save:
 
--   ![](~/Desktop/projects/final/media/image74.png){width="6.5in"
-    height="3.5555555555555554in"}
+-   ![](media/image74.png){width="6.5in" height="3.5555555555555554in"}
 
 Repeat the steps above three times and import the following pipelines:
 
@@ -1190,8 +1166,7 @@ Repeat the steps above three times and import the following pipelines:
 
 Once done, your pipelines should look like this (select All tab):
 
--   ![](~/Desktop/projects/final/media/image75.png){width="6.5in"
-    height="3.51875in"}
+-   ![](media/image75.png){width="6.5in" height="3.51875in"}
 
 > For sake of this workshop, we have disabled automatic triggering of
 > the pipelines. Hence, we can now manually run three out of the four
@@ -1206,8 +1181,7 @@ Once done, your pipelines should look like this (select All tab):
 The last pipeline delete-infrastructure can be used to get rid of the
 AKS cluster (for saving cost).
 
--   ![](~/Desktop/projects/final/media/image76.png){width="6.5in"
-    height="3.441666666666667in"}
+-   ![](media/image76.png){width="6.5in" height="3.441666666666667in"}
 
 Once all three pipelines ran, we should be able to see in the AzureML
 studio:
