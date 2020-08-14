@@ -102,7 +102,7 @@ of the workspace is illustrated in the following diagram:
 
 
 
-1.  **Azure Machine Learning Workspace**
+## 1.  **Create Azure Machine Learning Workspace**
 
 -   Sign in to the [Azure portal ](https://portal.azure.com/)by using
     the credentials for your Azure subscription.
@@ -139,7 +139,7 @@ page.](media/image3.png)
 
 -   To view the new workspace, select **Go to resource**.
 
-2.  **Create Compute**
+## 2.  **Create Compute**
 
 **Create Compute Cluster**
 
@@ -218,7 +218,8 @@ of a Data Scientist.
 
 -   **Note that this machine will keep running until you stop it!**
 
-> **3. Create Dataset**
+> 
+## **3. Create Dataset**
 
 With Azure Machine Learning datasets, you can:
 
@@ -401,7 +402,7 @@ studio:
     information on creating and using
     Datasets](https://docs.microsoft.com/en-us/azure/machine-learning/service/how-to-create-register-datasets).
 
-> **2. Automated Machine Learning**
+> ## **4. Automated Machine Learning**
 
 Automated machine learning (automated ML) builds high quality machine
 learning models for you by automating model and hyperparameter
@@ -584,7 +585,7 @@ documentation [here](https://docs.microsoft.com/en-us/azure/machine-learning/se
 Try the [[sample
 notebooks]{.ul}](https://github.com/Azure/MachineLearningNotebooks/tree/master/how-to-use-azureml/automated-machine-learning).
 
-> **3. Azure Machine Learning Designer**
+> ## **5. Azure Machine Learning Designer**
 
 Azure Machine Learning designer lets you visually
 connect [datasets ](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#datasets)and [modules ](https://docs.microsoft.com/en-us/azure/machine-learning/concept-designer#module)on
@@ -722,7 +723,7 @@ designer](media/image35.png)
 > ![](media/image46.png 
 "}
 >
-> **6. Notebook VM & Python SDK**
+> ## **6. Notebook VM & Python SDK**
 
 The Azure ML Notebook VM is a cloud-based workstation created
 specifically for data scientists. Notebook VM based authoring is
@@ -878,7 +879,7 @@ Interpretation (More information on interpretability at
 
 -   2-explain-model-on-amlcompute.ipynb =\> Explain model on AML Compute
 
-**7. Azure ML R SDK and R Studio Interface**
+## **7. Azure ML R SDK and R Studio Interface**
 
 Azure Machine Learning supports R. You can bring in your existing R
 codes in to Azure Machine Learning and run it in the same experiment
@@ -952,7 +953,7 @@ seamless access to a R based notebook environment.
 
 -   <https://docs.microsoft.com/en-us/azure/machine-learning/tutorial-1st-r-experiment>
 
-**8. MLOps**
+## **8. MLOps**
 
 Machine Learning Operations (MLOps) is based
 on [DevOps](https://azure.microsoft.com/overview/what-is-devops/) principles
