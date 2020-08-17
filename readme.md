@@ -10,6 +10,9 @@
 - ML Devops engineer 
 
 
+## Conntributors and refrences 
+- Ashish Talati
+- https://github.com/danielsc/azureml-workshop-2019
 
 ## Workshop
 
